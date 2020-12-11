@@ -1,4 +1,4 @@
-/*google font*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
@@ -164,8 +164,6 @@ main {
     position: relative;
     width: 100%;
     padding: 50px;
-   
-    display: auto;
     justify-content: space-between;
     align-items: center;
     background: var(--lys-color);
@@ -252,7 +250,7 @@ footer {
     text-align: center;
     min-height: 15vh;
     padding: 40px;
-    font-family: 50;
+    
     
 }
 
@@ -571,13 +569,13 @@ footer {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid var (var(--lys-color));
+  border: medium solid var(--lys-color);
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent var(--lys-color);
 }
 
 /* Add arrows to the right container (pointing left) */
-.right::before {
+.right:before {
   content: " ";
   height: 0;
   position: absolute;

@@ -6,6 +6,15 @@
     <title>Natasjas Portfolio</title>
     <link rel="preconnect" href= "https://fonts.gstatic.com"> 
     <link rel="stylesheet" href= "style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZ1R6QKV18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZ1R6QKV18');
+</script>
 </head>
 <body>
 
@@ -15,12 +24,12 @@
       <div class="cirkel"></div>
         <!--Header-->
       <header>
-        <a href="forside.html"><img src="færdiglogo.png" class="logo"></a>
+        <a href="forside.html"><img src="færdiglogo.png" class="logo" alt="logo"></a>
         <div id="menuArea">
-          <input type="checkbox" id="menuToggle"></input>
+          <input type="checkbox" id="menuToggle">
         
         <label for="menuToggle" class="menuOpen">
-          <div class="open"></div>
+          <span class="open"></span>
         </label>
         
         <div class="menu menuEffects">
@@ -48,7 +57,7 @@
             <h2>Om mig</h2>
             <p>Mit navn er <b>Natasja Clemmensen</b>, jeg er multimediedesignstuderende på Zealand i Køge. Jeg drømmer om at arbejde med Grafisk design og webudvikling</p> 
             </div>
-            <a href="#"><img src="billedeafmig.png" class="forsidebillede" ></a>
+            <a href="#"><img src="billedeafmig.png" class="forsidebillede" alt="tegnet billede" ></a>
         
    </div>
 
@@ -88,8 +97,9 @@
             <p>Salgstrainee, Danbolig Viby Sj.</p>
           </div>
         </div>
+        </div>
        
-        
+      </main>     
 
 </body>
 </html>
