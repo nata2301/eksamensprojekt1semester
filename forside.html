@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natasjas Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="stylesheet" href=>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href= "https://fonts.gstatic.com"> 
+    <link rel="stylesheet" href= "style.css">
 </head>
 <body>
 
@@ -17,11 +16,29 @@
         <!--Header-->
       <header>
         <a href="#"><img src="færdiglogo.png" class="logo"></a>
-        <div class="toggle"></div>
+        <div id="menuArea">
+          <input type="checkbox" id="menuToggle"></input>
+        
+        <label for="menuToggle" class="menuOpen">
+          <div class="open"></div>
+        </label>
+        
+        <div class="menu menuEffects">
+          <label for="menuToggle"></label>
+          <div class="menuContent">
+            <ul>
+              <li><a href="#">Forside</a></li>
+              <li><a href="#">Projekter</a></li>
+              <li><a href="#">Kontakt mig</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        </div>
         <ul class="navigation">
+            <li><a href="#">Forside</a></li>
             <li><a href="#">Projekter</a></li>
-            <li><a href="#">kompatancer</a></li>
-            <li><a href="#">kontakt mig</a></li>
+            <li><a href="#">Kontakt mig</a></li>
       
         </ul>
     </header>
@@ -33,65 +50,45 @@
             </div>
             <a href="#"><img src="billedeafmig.png" class="forsidebillede" ></a>
         
-    </div>
+   </div>
 
-  </section> 
-
-
-
-
-
-
+  </section>
   
   <main>
     <h2>1. Semester projekter - portfolio</h2>
     <div class="responsive">
       <div class="gallery">
-        <div class="des">rumrejse</div>
+        <div class="des">Tema 1 - Rumrejse</div>
         <a href="#"><img src="rumrejse.png"></a>
         
         </div>
       </div>
       <div class="responsive">
       <div class="gallery">
-        <div class="des">dans </div>
+        <div class="des">Tema 2 - Dans</div>
         <a href="#"><img src="dans.png"></a>
        
         </div>
       </div>
       <div class="responsive">
       <div class="gallery">
-        <div class="des">bag rattet</div>
+        <div class="des">Tema 3 - Bag rattet</div>
         <a href="#"><img src="bagrattet.png" ></a>
        
         </div>
       </div>
       <div class="responsive">
       <div class="gallery">
-        <div class="des">video</div>
+        <div class="des">Tema 4 - Video</div>
         <a href="#"><img src="video.png" ></a>
         
         </div>
       </div>
-  </main>
+   </main>
 
+  <footer>
+   2020 ©Copyright Natasja Clemmensen
+  </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-    
 </body>
 </html>
